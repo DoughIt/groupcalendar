@@ -160,7 +160,7 @@ public class ItemListPane extends VBox {
             this.toLabel = new Label(this.memo.getTo().toString());
             this.descLabel = new Label("Content: " + this.memo.getDetailText());
             this.statusLabel = new Label(Const.STATUS_STRING[this.memo.getStatus()]);
-            this.checkBox = new CheckBox();
+            this.checkBox = new CheckBox("设置完成");
 
             this.typeLabel.getStyleClass().addAll("item_title", "label");
             this.descLabel.getStyleClass().addAll("item_desc", "label");

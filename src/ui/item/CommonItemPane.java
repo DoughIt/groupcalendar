@@ -108,8 +108,12 @@ public class CommonItemPane extends VBox {
         CommonItemPane pane = new CommonItemPane(item, true);
         if (primaryStage != null) {
             primaryStage.close();
-            primaryStage.setScene(new Scene(pane));
-            primaryStage.show();
+        }else {
+            primaryStage = new Stage();
+            primaryStage.initModality(Modality.APPLICATION_MODAL);
+            primaryStage.setResizable(false);
         }
+        primaryStage.setScene(new Scene(pane));
+        primaryStage.show();
     }
 }

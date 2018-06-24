@@ -254,6 +254,7 @@ public class ItemManager {
                 if (canOverlapped(item)) {
                     updateStatus(item);
                     int id = mysql.addSchedule(item.getAttrs());
+                    item.setID(id);
                     ArrayList<HashMap<String, String>> childrenMsg = mysql.queryByFatherID(item.getID());
                     if (!childrenMsg.isEmpty()) {
                         for (HashMap childMsg : childrenMsg) {
