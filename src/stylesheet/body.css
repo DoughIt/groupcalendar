@@ -1,0 +1,86 @@
+.basic_day {
+    -fx-font-family: Times New Roman;
+    -fx-font-size: 20;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-background-color: rgba(0, 0, 0, .3);
+    -fx-text-fill: rgba(255, 255, 255, .7);
+    -fx-cursor: hand;
+}
+
+.basic_day:hover {
+    -fx-background-color: rgba(0, 0, 0, .45);
+}
+
+.basic_label {
+    -fx-text-fill: rgba(255, 255, 255, .7);
+}
+
+#focus {
+    -fx-background-color: rgba(0, 0, 0, .55);
+}
+
+#today {
+    -fx-background-color: rgba(0, 0, 0, .6);
+    -fx-text-fill: rgba(245, 247, 250, 1);
+    /*-fx-background-color: rgba(17, 171, 228, 0.4);*/
+}
+
+#today:hover {
+    -fx-background-color: rgba(0, 0, 0, .8);
+}
+
+.type_MEETING {
+    -fx-fill: #F54EA2;
+}
+
+.type_DATE {
+    -fx-fill: #A94CAF;
+}
+
+.type_ANNIVERSARY {
+    -fx-fill: #7B3B8C;
+}
+
+.type_COURSE {
+    -fx-fill: #F75940;
+}
+
+.type_TRAVEL {
+    -fx-fill: #42218E;
+
+}
+
+.type_INTERVIEW {
+    -fx-fill: #7A57D1;
+}
+
+.type_CUSTOM {
+    -fx-fill: #266A2E;
+}
+
+.not_this_month_day {
+    -fx-background-color: rgba(0, 0, 0, .1);
+    -fx-text-fill: rgba(255, 255, 255, .5);
+}
+
+.not_this_month_day:hover {
+    -fx-background-color: rgba(0, 0, 0, .25);
+}
+
+.festival .festival_label {
+    -fx-font-size: 10;
+    -fx-text-fill: rgba(255, 255, 255, .65);
+}
+
+.day_off .day_off_label {
+    -fx-font-size: 10;
+    /*-fx-text-fill: #7A57D1;*/
+    /*-fx-text-fill: rgba(38,106,46,1);*/
+    -fx-text-fill: rgba(255, 255, 255, .75);
+
+}
+
+.weekend .basic_label {
+    -fx-text-fill: rgba(247, 89, 64, .5);
+}

@@ -1,0 +1,58 @@
+.mainScene {
+    -fx-background-color: rgba(0 ,0 , 0 , 0.7);
+    -fx-max-width: 1200;
+    -fx-min-width: 1200;
+    -fx-max-height: 720;
+    -fx-min-height: 720;
+}
+
+.mainContent {
+    -fx-max-width: 683;
+    -fx-min-width: 683;
+    -fx-max-height: 500;
+    -fx-min-height: 500;
+}
+
+.title {
+    -fx-font-size: 35px ;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-border-radius: 5 5 0 0;
+    -fx-background-radius: 5 5 0 0;
+    -fx-max-width: 683;
+    -fx-min-width: 683;
+    -fx-max-height: 50;
+    -fx-min-height: 50;
+    -fx-background-color: #808080;
+    -fx-text-fill: white;
+    -fx-padding: 0 0 0 20;
+}
+
+.checkGrid {
+    -fx-max-width: 683;
+    -fx-min-width: 683;
+    -fx-max-height: 430;
+    -fx-min-height: 430;
+    -fx-background-color: white;
+}
+
+.buttons {
+    -fx-border-radius: 0 0 5 5;
+    -fx-background-radius: 0 0 5 5;
+    -fx-max-width: 683;
+    -fx-min-width: 683;
+    -fx-max-height: 40;
+    -fx-min-height: 40;
+    -fx-background-color: #333333;
+    -fx-padding: 5 0 5 130;
+    -fx-text-alignment: right;
+}
+
+.button {
+    -fx-max-width: 150;
+    -fx-min-width: 150;
+    -fx-max-height: 30;
+    -fx-min-height: 30;
+    -fx-background-color: rgb(243,92 , 20);
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+}

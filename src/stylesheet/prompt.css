@@ -1,0 +1,49 @@
+.mainPrompt {
+    -fx-background-color: #cccccc;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+.promptLabel {
+    -fx-border-radius: 10 10 0 0;
+    -fx-background-radius: 10 10 0 0;
+    -fx-max-width: 280;
+    -fx-min-width: 280;
+    -fx-max-height: 30;
+    -fx-min-height: 30;
+    -fx-background-color: #808080;
+    -fx-text-fill: white;
+    -fx-font-size: 1.5em;
+    -fx-padding: 0 0 0 10;
+}
+
+.hintLabel {
+    -fx-max-width: 280;
+    -fx-min-width: 280;
+    -fx-max-height: 180;
+    -fx-min-height: 180;
+    -fx-text-fill: black;
+    -fx-padding: 0 0 0 10;
+}
+
+.buttons {
+    -fx-border-radius: 0 0 10 10;
+    -fx-background-radius: 0 0 10 10;
+    -fx-max-width: 280;
+    -fx-min-width: 280;
+    -fx-max-height: 30;
+    -fx-min-height: 30;
+    -fx-background-color: #333333;
+    -fx-padding: 0 0 0 100;
+    -fx-text-alignment: right;
+}
+
+.button {
+    -fx-max-width: 70;
+    -fx-min-width: 70;
+    -fx-max-height: 24;
+    -fx-min-height: 24;
+    -fx-background-color: rgb(243,92 , 20);
+    -fx-text-fill: white;
+}

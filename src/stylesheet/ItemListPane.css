@@ -1,0 +1,63 @@
+.label {
+    -fx-font-family: "微软雅黑";
+    -fx-font-smoothing-type: inherit;
+}
+
+#memoListPane .item_title {
+    -fx-text-fill: #334252;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+#memoListPane .item_status {
+    -fx-text-fill: #a39e9e;
+    -fx-font-size: 10px;
+}
+
+#memoListPane .item_date, #memoListPane .item_desc {
+    -fx-font-size: 12px;
+    -fx-text-fill: #a39391;
+}
+
+#memoListPane .item {
+    -fx-border-color: transparent transparent rgba(0, 0, 0, .05) transparent;
+    -fx-border-insets: 0 0 1 0;
+    -fx-border-style: solid;
+}
+
+#memoListPane #num_label {
+    -fx-font-size: 20px;
+}
+
+#memoListPane #add_label {
+    -fx-font-size: 30px;
+    -fx-text-fill: #38925E;
+    -fx-font-weight: bolder;
+    -fx-cursor: hand;
+}
+
+#memoListPane #add_label:hover {
+    -fx-text-fill: #266A2E;
+}
+
+#memoListPane .del_label {
+    -fx-text-fill: #E8222D;
+    -fx-padding: 5;
+    -fx-border-color: transparent transparent transparent #D3E397;
+    -fx-border-insets: 0 0 0 1;
+    -fx-border-style: solid;
+    -fx-cursor: hand;
+}
+
+#memoListPane .del_label:hover {
+    -fx-text-fill: #C00000;
+}
+
+#memoListPane .item_status:hover {
+    -fx-text-fill: #2d2d2d;
+}
+
+#memoListPane .memo_item {
+    -fx-cursor: hand;
+}
+

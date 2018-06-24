@@ -1,0 +1,63 @@
+.green {
+    -fx-background-color:
+        linear-gradient(#66ff66, #00b300),
+        linear-gradient(#8cff66,  #66ff33),
+        linear-gradient(#8cff66, #39e600),
+        linear-gradient(#9fff80 0%, #53ff1a 50%,  #29a329 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 5 10 5 10;
+}
+
+.red {
+    -fx-background-color:
+        linear-gradient( #ff8080,  #ff0000),
+        linear-gradient(#ff4d4d,   #ff0000),
+        linear-gradient(#ff4d4d, #e60000),
+        linear-gradient(#ff6666 0%, #e60000 50%,  #cc0000 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 5 10 5 10;
+}
+
+.greenInDetail {
+    -fx-background-color:
+        linear-gradient(#66ff66, #00b300),
+        linear-gradient(#8cff66,  #66ff33),
+        linear-gradient(#8cff66, #39e600),
+        linear-gradient(#9fff80 0%, #53ff1a 50%,  #29a329 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 15;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 2 10 2 10;
+}
+
+.redInDetail {
+    -fx-background-color:
+            linear-gradient( #ff8080,  #ff0000),
+            linear-gradient(#ff4d4d,   #ff0000),
+            linear-gradient(#ff4d4d, #e60000),
+            linear-gradient(#ff6666 0%, #e60000 50%,  #cc0000 100%),
+            linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 15;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 2 5 2 5;
+}
+
+.button:hover {
+    -fx-cursor: hand;
+}
